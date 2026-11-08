@@ -1,0 +1,479 @@
+{
+  "baseline": {
+    "exact": "29/44",
+    "categories": {
+      "correct": [
+        23,
+        23
+      ],
+      "spelling": [
+        6,
+        15
+      ],
+      "grammar": [
+        0,
+        5
+      ],
+      "contextual": [
+        0,
+        1
+      ]
+    },
+    "precision": 0.625,
+    "recall": 0.38461538461538464,
+    "false_positives": 0,
+    "recall_at_k": {
+      "1": 0.38461538461538464,
+      "5": 0.5,
+      "10": 0.5,
+      "40": 0.5
+    },
+    "initialization_ms": 1094.4827920029638,
+    "uncached_ms": {
+      "mean": 1.529487703836904,
+      "p50": 0.0034999975468963385,
+      "p95": 8.184375008568168,
+      "p99": 10.53554100508336
+    },
+    "cached_ms": {
+      "mean": 0.006571976634652608,
+      "p50": 0.003207998815923929,
+      "p95": 0.021208004909567535,
+      "p99": 0.024957989808171988
+    },
+    "generation_ms": {
+      "mean": 1.5199725676211528,
+      "p50": 0.0,
+      "p95": 8.146749998559244,
+      "p99": 10.509208994335495
+    },
+    "ranking_ms": {
+      "mean": 0.00539777300384065,
+      "p50": 0.0,
+      "p95": 0.03066699719056487,
+      "p99": 0.03154300793539733
+    },
+    "failures": [
+      {
+        "source": "תפו",
+        "target": "תפוח",
+        "stage": "candidate_generation",
+        "gold_rank": null
+      },
+      {
+        "source": "היופ",
+        "target": "היום",
+        "stage": "ranking",
+        "gold_rank": 2
+      },
+      {
+        "source": "נימצא",
+        "target": "נמצא",
+        "stage": "vocabulary_accepts_input",
+        "gold_rank": null
+      },
+      {
+        "source": "נפיגש",
+        "target": "ניפגש",
+        "stage": "ranking",
+        "gold_rank": 3
+      },
+      {
+        "source": "מתכבן",
+        "target": "מתכוון",
+        "stage": "candidate_generation",
+        "gold_rank": null
+      },
+      {
+        "source": "אזרה",
+        "target": "עזרה",
+        "stage": "vocabulary_accepts_input",
+        "gold_rank": null
+      },
+      {
+        "source": "רוצ",
+        "target": "רוצים",
+        "stage": "candidate_generation",
+        "gold_rank": null
+      },
+      {
+        "source": "משחקם",
+        "target": "משחקים",
+        "stage": "vocabulary_accepts_input",
+        "gold_rank": null
+      },
+      {
+        "source": "ביקשא",
+        "target": "ביקשה",
+        "stage": "ranking",
+        "gold_rank": 3
+      },
+      {
+        "source": "הסבר",
+        "target": "הספר",
+        "stage": "vocabulary_accepts_input",
+        "gold_rank": null
+      },
+      {
+        "source": "הולכות",
+        "target": "הולכים",
+        "stage": "vocabulary_accepts_input",
+        "gold_rank": null
+      },
+      {
+        "source": "אוכל",
+        "target": "אוכלת",
+        "stage": "vocabulary_accepts_input",
+        "gold_rank": null
+      },
+      {
+        "source": "משחקים",
+        "target": "משחקות",
+        "stage": "vocabulary_accepts_input",
+        "gold_rank": null
+      },
+      {
+        "source": "שמחה",
+        "target": "שמחים",
+        "stage": "vocabulary_accepts_input",
+        "gold_rank": null
+      },
+      {
+        "source": "נכונה",
+        "target": "נכונות",
+        "stage": "vocabulary_accepts_input",
+        "gold_rank": null
+      },
+      {
+        "source": "לשטות",
+        "target": "לשתות",
+        "stage": "vocabulary_accepts_input",
+        "gold_rank": null
+      }
+    ]
+  },
+  "conditional_no_abstention": {
+    "exact": "29/44",
+    "categories": {
+      "correct": [
+        23,
+        23
+      ],
+      "spelling": [
+        6,
+        15
+      ],
+      "grammar": [
+        0,
+        5
+      ],
+      "contextual": [
+        0,
+        1
+      ]
+    },
+    "precision": 0.625,
+    "recall": 0.38461538461538464,
+    "false_positives": 0,
+    "recall_at_k": {
+      "1": 0.38461538461538464,
+      "5": 0.5,
+      "10": 0.5,
+      "40": 0.5769230769230769
+    },
+    "initialization_ms": 1247.7537499944447,
+    "uncached_ms": {
+      "mean": 1.57194695467214,
+      "p50": 0.0038330035749822855,
+      "p95": 8.518791000824422,
+      "p99": 10.359125008108094
+    },
+    "cached_ms": {
+      "mean": 0.017385569993745197,
+      "p50": 0.003249995643272996,
+      "p95": 0.04125000850763172,
+      "p99": 0.18691700825002044
+    },
+    "generation_ms": {
+      "mean": 1.5442273642375683,
+      "p50": 0.0,
+      "p95": 8.38245899649337,
+      "p99": 10.302041991963051
+    },
+    "ranking_ms": {
+      "mean": 0.022739660132422367,
+      "p50": 0.0,
+      "p95": 0.13016701268497854,
+      "p99": 0.17345999367535114
+    },
+    "failures": [
+      {
+        "source": "תפו",
+        "target": "תפוח",
+        "stage": "ranking",
+        "gold_rank": 12
+      },
+      {
+        "source": "היופ",
+        "target": "היום",
+        "stage": "ranking",
+        "gold_rank": 2
+      },
+      {
+        "source": "נימצא",
+        "target": "נמצא",
+        "stage": "vocabulary_accepts_input",
+        "gold_rank": null
+      },
+      {
+        "source": "נפיגש",
+        "target": "ניפגש",
+        "stage": "ranking",
+        "gold_rank": 3
+      },
+      {
+        "source": "מתכבן",
+        "target": "מתכוון",
+        "stage": "ranking",
+        "gold_rank": 33
+      },
+      {
+        "source": "אזרה",
+        "target": "עזרה",
+        "stage": "vocabulary_accepts_input",
+        "gold_rank": null
+      },
+      {
+        "source": "רוצ",
+        "target": "רוצים",
+        "stage": "candidate_generation",
+        "gold_rank": null
+      },
+      {
+        "source": "משחקם",
+        "target": "משחקים",
+        "stage": "vocabulary_accepts_input",
+        "gold_rank": null
+      },
+      {
+        "source": "ביקשא",
+        "target": "ביקשה",
+        "stage": "ranking",
+        "gold_rank": 3
+      },
+      {
+        "source": "הסבר",
+        "target": "הספר",
+        "stage": "vocabulary_accepts_input",
+        "gold_rank": null
+      },
+      {
+        "source": "הולכות",
+        "target": "הולכים",
+        "stage": "vocabulary_accepts_input",
+        "gold_rank": null
+      },
+      {
+        "source": "אוכל",
+        "target": "אוכלת",
+        "stage": "vocabulary_accepts_input",
+        "gold_rank": null
+      },
+      {
+        "source": "משחקים",
+        "target": "משחקות",
+        "stage": "vocabulary_accepts_input",
+        "gold_rank": null
+      },
+      {
+        "source": "שמחה",
+        "target": "שמחים",
+        "stage": "vocabulary_accepts_input",
+        "gold_rank": null
+      },
+      {
+        "source": "נכונה",
+        "target": "נכונות",
+        "stage": "vocabulary_accepts_input",
+        "gold_rank": null
+      },
+      {
+        "source": "לשטות",
+        "target": "לשתות",
+        "stage": "vocabulary_accepts_input",
+        "gold_rank": null
+      }
+    ]
+  },
+  "conditional": {
+    "exact": "27/44",
+    "categories": {
+      "correct": [
+        23,
+        23
+      ],
+      "spelling": [
+        4,
+        15
+      ],
+      "grammar": [
+        0,
+        5
+      ],
+      "contextual": [
+        0,
+        1
+      ]
+    },
+    "precision": 1.0,
+    "recall": 0.2692307692307692,
+    "false_positives": 0,
+    "recall_at_k": {
+      "1": 0.38461538461538464,
+      "5": 0.5,
+      "10": 0.5,
+      "40": 0.5769230769230769
+    },
+    "initialization_ms": 1171.9376249966444,
+    "uncached_ms": {
+      "mean": 1.5206712513728151,
+      "p50": 0.0032919924706220627,
+      "p95": 8.224333010730334,
+      "p99": 10.020457993960008
+    },
+    "cached_ms": {
+      "mean": 0.01318747639412653,
+      "p50": 0.003249995643272996,
+      "p95": 0.034374999813735485,
+      "p99": 0.08916700608097017
+    },
+    "generation_ms": {
+      "mean": 1.4979905228590888,
+      "p50": 0.0,
+      "p95": 8.086000001640059,
+      "p99": 9.969459002604708
+    },
+    "ranking_ms": {
+      "mean": 0.01853795468129895,
+      "p50": 0.0,
+      "p95": 0.061166996601969004,
+      "p99": 0.13800100714433938
+    },
+    "failures": [
+      {
+        "source": "תפו",
+        "target": "תפוח",
+        "stage": "abstention",
+        "gold_rank": 12
+      },
+      {
+        "source": "היופ",
+        "target": "היום",
+        "stage": "abstention",
+        "gold_rank": 2
+      },
+      {
+        "source": "נימצא",
+        "target": "נמצא",
+        "stage": "vocabulary_accepts_input",
+        "gold_rank": null
+      },
+      {
+        "source": "נפיגש",
+        "target": "ניפגש",
+        "stage": "abstention",
+        "gold_rank": 3
+      },
+      {
+        "source": "מתכבן",
+        "target": "מתכוון",
+        "stage": "abstention",
+        "gold_rank": 33
+      },
+      {
+        "source": "החלתנו",
+        "target": "החלטנו",
+        "stage": "abstention",
+        "gold_rank": 1
+      },
+      {
+        "source": "אזרה",
+        "target": "עזרה",
+        "stage": "vocabulary_accepts_input",
+        "gold_rank": null
+      },
+      {
+        "source": "המחשף",
+        "target": "המחשב",
+        "stage": "abstention",
+        "gold_rank": 1
+      },
+      {
+        "source": "רוצ",
+        "target": "רוצים",
+        "stage": "candidate_generation",
+        "gold_rank": null
+      },
+      {
+        "source": "משחקם",
+        "target": "משחקים",
+        "stage": "vocabulary_accepts_input",
+        "gold_rank": null
+      },
+      {
+        "source": "ביקשא",
+        "target": "ביקשה",
+        "stage": "abstention",
+        "gold_rank": 3
+      },
+      {
+        "source": "לפטוח",
+        "target": "לפתוח",
+        "stage": "abstention",
+        "gold_rank": 1
+      },
+      {
+        "source": "הסבר",
+        "target": "הספר",
+        "stage": "vocabulary_accepts_input",
+        "gold_rank": null
+      },
+      {
+        "source": "הולכות",
+        "target": "הולכים",
+        "stage": "vocabulary_accepts_input",
+        "gold_rank": null
+      },
+      {
+        "source": "אוכל",
+        "target": "אוכלת",
+        "stage": "vocabulary_accepts_input",
+        "gold_rank": null
+      },
+      {
+        "source": "משחקים",
+        "target": "משחקות",
+        "stage": "vocabulary_accepts_input",
+        "gold_rank": null
+      },
+      {
+        "source": "שמחה",
+        "target": "שמחים",
+        "stage": "vocabulary_accepts_input",
+        "gold_rank": null
+      },
+      {
+        "source": "נכונה",
+        "target": "נכונות",
+        "stage": "vocabulary_accepts_input",
+        "gold_rank": null
+      },
+      {
+        "source": "לשטות",
+        "target": "לשתות",
+        "stage": "vocabulary_accepts_input",
+        "gold_rank": null
+      }
+    ]
+  }
+}

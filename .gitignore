@@ -1,0 +1,30 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+# Local datasets and all derived indexes: permission/provenance required before distribution.
+*.duckdb
+*.arrow
+*.parquet
+*.pickle
+he-100k.txt
+hebrew_corpus.txt
+data/
+# Secrets
+.env
+.env.*
+!.env.example
+
+# macOS
+.DS_Store
+
+# Additional Python artifacts
+*.py[cod]
+.ruff_cache/
+.mypy_cache/
+
+# Local virtual environments
+venv/
+venvm/

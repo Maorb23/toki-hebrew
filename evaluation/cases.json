@@ -1,0 +1,222 @@
+[
+  {
+    "category": "correct",
+    "text": "אנחנו הולכים לבית הספר",
+    "expected": "אנחנו הולכים לבית הספר"
+  },
+  {
+    "category": "spelling",
+    "text": "אנכנו הולכים לבית הספר",
+    "expected": "אנחנו הולכים לבית הספר"
+  },
+  {
+    "category": "correct",
+    "text": "הילדים הולכים לבית הספר",
+    "expected": "הילדים הולכים לבית הספר"
+  },
+  {
+    "category": "spelling",
+    "text": "הילידם הולכים לבית הספר",
+    "expected": "הילדים הולכים לבית הספר"
+  },
+  {
+    "category": "correct",
+    "text": "הילדה אוכלת תפוח",
+    "expected": "הילדה אוכלת תפוח"
+  },
+  {
+    "category": "spelling",
+    "text": "הילדה אוכלת תפו",
+    "expected": "הילדה אוכלת תפוח"
+  },
+  {
+    "category": "correct",
+    "text": "אני רוצה ללמוד עברית",
+    "expected": "אני רוצה ללמוד עברית"
+  },
+  {
+    "category": "spelling",
+    "text": "אני רוצ ללמוד עברית",
+    "expected": "אני רוצה ללמוד עברית"
+  },
+  {
+    "category": "correct",
+    "text": "היום מזג האוויר נעים",
+    "expected": "היום מזג האוויר נעים"
+  },
+  {
+    "category": "spelling",
+    "text": "היופ מזג האוויר נעים",
+    "expected": "היום מזג האוויר נעים"
+  },
+  {
+    "category": "correct",
+    "text": "היא עובדת במשרד",
+    "expected": "היא עובדת במשרד"
+  },
+  {
+    "category": "spelling",
+    "text": "היא עובדת במישרד",
+    "expected": "היא עובדת במשרד"
+  },
+  {
+    "category": "correct",
+    "text": "הספר נמצא על השולחן",
+    "expected": "הספר נמצא על השולחן"
+  },
+  {
+    "category": "spelling",
+    "text": "הספר נימצא על השולחן",
+    "expected": "הספר נמצא על השולחן"
+  },
+  {
+    "category": "correct",
+    "text": "מחר ניפגש בתל אביב",
+    "expected": "מחר ניפגש בתל אביב"
+  },
+  {
+    "category": "spelling",
+    "text": "מחר נפיגש בתל אביב",
+    "expected": "מחר ניפגש בתל אביב"
+  },
+  {
+    "category": "correct",
+    "text": "אני אוהב לקרוא ספרים",
+    "expected": "אני אוהב לקרוא ספרים"
+  },
+  {
+    "category": "correct",
+    "text": "אני אוהב לקרוע ספרים",
+    "expected": "אני אוהב לקרוע ספרים"
+  },
+  {
+    "category": "correct",
+    "text": "הילדים משחקים בכדור",
+    "expected": "הילדים משחקים בכדור"
+  },
+  {
+    "category": "correct",
+    "text": "הילדים משחקים בכדורסל",
+    "expected": "הילדים משחקים בכדורסל"
+  },
+  {
+    "category": "correct",
+    "text": "היא עובדת במשרד החדש",
+    "expected": "היא עובדת במשרד החדש"
+  },
+  {
+    "category": "correct",
+    "text": "למרות הגשם יצאנו לטייל",
+    "expected": "למרות הגשם יצאנו לטייל"
+  },
+  {
+    "category": "correct",
+    "text": "אני מתכוון ללכת מחר",
+    "expected": "אני מתכוון ללכת מחר"
+  },
+  {
+    "category": "spelling",
+    "text": "אני מתכבן ללכת מחר",
+    "expected": "אני מתכוון ללכת מחר"
+  },
+  {
+    "category": "correct",
+    "text": "החלטנו להיפגש בערב",
+    "expected": "החלטנו להיפגש בערב"
+  },
+  {
+    "category": "spelling",
+    "text": "החלתנו להיפגש בערב",
+    "expected": "החלטנו להיפגש בערב"
+  },
+  {
+    "category": "correct",
+    "text": "הוא ביקש ממני עזרה",
+    "expected": "הוא ביקש ממני עזרה"
+  },
+  {
+    "category": "spelling",
+    "text": "הוא ביקש ממני אזרה",
+    "expected": "הוא ביקש ממני עזרה"
+  },
+  {
+    "category": "correct",
+    "text": "המחשב הפסיק לעבוד",
+    "expected": "המחשב הפסיק לעבוד"
+  },
+  {
+    "category": "spelling",
+    "text": "המחשף הפסיק לעבוד",
+    "expected": "המחשב הפסיק לעבוד"
+  },
+  {
+    "category": "spelling",
+    "text": "אנכנו רוצ ללמוד עיברית",
+    "expected": "אנחנו רוצים ללמוד עברית"
+  },
+  {
+    "category": "spelling",
+    "text": "הילידם משחקם בחצר",
+    "expected": "הילדים משחקים בחצר"
+  },
+  {
+    "category": "correct",
+    "text": "המורה ביקשה לפתוח את הספר",
+    "expected": "המורה ביקשה לפתוח את הספר"
+  },
+  {
+    "category": "spelling",
+    "text": "המורה ביקשא לפטוח את הסבר",
+    "expected": "המורה ביקשה לפתוח את הספר"
+  },
+  {
+    "category": "grammar",
+    "text": "הילדים הולכות לבית הספר",
+    "expected": "הילדים הולכים לבית הספר"
+  },
+  {
+    "category": "grammar",
+    "text": "הילדה אוכל תפוח",
+    "expected": "הילדה אוכלת תפוח"
+  },
+  {
+    "category": "correct",
+    "text": "הילד הולך הביתה",
+    "expected": "הילד הולך הביתה"
+  },
+  {
+    "category": "grammar",
+    "text": "הילדות משחקים בחצר",
+    "expected": "הילדות משחקות בחצר"
+  },
+  {
+    "category": "grammar",
+    "text": "הילדים שמחה מאוד",
+    "expected": "הילדים שמחים מאוד"
+  },
+  {
+    "category": "grammar",
+    "text": "אני חושב שמלחמות נכונה",
+    "expected": "אני חושב שמלחמות נכונות"
+  },
+  {
+    "category": "correct",
+    "text": "אני רוצה לקרוא ספרים",
+    "expected": "אני רוצה לקרוא ספרים"
+  },
+  {
+    "category": "correct",
+    "text": "אני רוצה לקרוע ספרים",
+    "expected": "אני רוצה לקרוע ספרים"
+  },
+  {
+    "category": "correct",
+    "text": "אני רוצה לשתות מים",
+    "expected": "אני רוצה לשתות מים"
+  },
+  {
+    "category": "contextual",
+    "text": "אני רוצה לשטות מים",
+    "expected": "אני רוצה לשתות מים"
+  }
+]
